@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: tracks-api
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: password
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+  flyway:
+    enabled: false
+
+spotify:
+  client-id: 01d9d31084464c138460b15de5381c1b
+  client-secret: e88ef66a617f476db635e2e29437fd4c
